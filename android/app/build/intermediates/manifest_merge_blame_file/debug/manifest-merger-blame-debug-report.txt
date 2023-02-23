@@ -1,0 +1,110 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ecommerce"
+4    android:versionCode="1004"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/shahin/Documents/ecommerce-mobile-main/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/shahin/Documents/ecommerce-mobile-main/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/shahin/Documents/ecommerce-mobile-main/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/shahin/Documents/ecommerce-mobile-main/android/app/src/main/AndroidManifest.xml:4:22-64
+13
+14    <queries>
+14-->/Users/shahin/Documents/ecommerce-mobile-main/android/app/src/main/AndroidManifest.xml:27:5-129
+15        <intent>
+15-->/Users/shahin/Documents/ecommerce-mobile-main/android/app/src/main/AndroidManifest.xml:27:15-118
+16            <action android:name="android.intent.action.VIEW" />
+16-->/Users/shahin/Documents/ecommerce-mobile-main/android/app/src/main/AndroidManifest.xml:27:24-76
+16-->/Users/shahin/Documents/ecommerce-mobile-main/android/app/src/main/AndroidManifest.xml:27:32-73
+17
+18            <data android:mimeType="*/*" />
+18-->/Users/shahin/Documents/ecommerce-mobile-main/android/app/src/main/AndroidManifest.xml:27:77-108
+18-->/Users/shahin/Documents/ecommerce-mobile-main/android/app/src/main/AndroidManifest.xml:27:83-105
+19        </intent>
+20    </queries>
+21
+22    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+22-->[com.facebook.flipper:flipper:0.125.0] /Users/shahin/.gradle/caches/transforms-3/eba2a1a7292d892e21bf7f690e85d73b/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+22-->[com.facebook.flipper:flipper:0.125.0] /Users/shahin/.gradle/caches/transforms-3/eba2a1a7292d892e21bf7f690e85d73b/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+23
+24    <application
+24-->/Users/shahin/Documents/ecommerce-mobile-main/android/app/src/main/AndroidManifest.xml:6:5-26:19
+25        android:name="com.ecommerce.MainApplication"
+25-->/Users/shahin/Documents/ecommerce-mobile-main/android/app/src/main/AndroidManifest.xml:8:7-38
+26        android:allowBackup="false"
+26-->/Users/shahin/Documents/ecommerce-mobile-main/android/app/src/main/AndroidManifest.xml:12:7-34
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.7.0] /Users/shahin/.gradle/caches/transforms-3/ad2f4befd4c8930031cbdf68c1e8e0e2/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->/Users/shahin/Documents/ecommerce-mobile-main/android/app/src/main/AndroidManifest.xml:10:7-41
+30        android:label="@string/app_name"
+30-->/Users/shahin/Documents/ecommerce-mobile-main/android/app/src/main/AndroidManifest.xml:9:7-39
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->/Users/shahin/Documents/ecommerce-mobile-main/android/app/src/main/AndroidManifest.xml:11:7-52
+32        android:theme="@style/AppTheme"
+32-->/Users/shahin/Documents/ecommerce-mobile-main/android/app/src/main/AndroidManifest.xml:13:7-38
+33        android:usesCleartextTraffic="true" >
+33-->/Users/shahin/Documents/ecommerce-mobile-main/android/app/src/main/AndroidManifest.xml:7:7-42
+34        <activity
+34-->/Users/shahin/Documents/ecommerce-mobile-main/android/app/src/debug/AndroidManifest.xml:11:9-111
+35            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+35-->/Users/shahin/Documents/ecommerce-mobile-main/android/app/src/debug/AndroidManifest.xml:11:19-83
+36            android:exported="false" />
+36-->/Users/shahin/Documents/ecommerce-mobile-main/android/app/src/debug/AndroidManifest.xml:11:84-108
+37        <activity
+37-->/Users/shahin/Documents/ecommerce-mobile-main/android/app/src/main/AndroidManifest.xml:14:7-25:18
+38            android:name="com.ecommerce.MainActivity"
+38-->/Users/shahin/Documents/ecommerce-mobile-main/android/app/src/main/AndroidManifest.xml:15:9-37
+39            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+39-->/Users/shahin/Documents/ecommerce-mobile-main/android/app/src/main/AndroidManifest.xml:17:9-118
+40            android:exported="true"
+40-->/Users/shahin/Documents/ecommerce-mobile-main/android/app/src/main/AndroidManifest.xml:20:9-32
+41            android:label="@string/app_name"
+41-->/Users/shahin/Documents/ecommerce-mobile-main/android/app/src/main/AndroidManifest.xml:16:9-41
+42            android:launchMode="singleTask"
+42-->/Users/shahin/Documents/ecommerce-mobile-main/android/app/src/main/AndroidManifest.xml:18:9-40
+43            android:windowSoftInputMode="adjustResize" >
+43-->/Users/shahin/Documents/ecommerce-mobile-main/android/app/src/main/AndroidManifest.xml:19:9-51
+44            <intent-filter>
+44-->/Users/shahin/Documents/ecommerce-mobile-main/android/app/src/main/AndroidManifest.xml:21:9-24:25
+45                <action android:name="android.intent.action.MAIN" />
+45-->/Users/shahin/Documents/ecommerce-mobile-main/android/app/src/main/AndroidManifest.xml:22:13-65
+45-->/Users/shahin/Documents/ecommerce-mobile-main/android/app/src/main/AndroidManifest.xml:22:21-62
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->/Users/shahin/Documents/ecommerce-mobile-main/android/app/src/main/AndroidManifest.xml:23:13-73
+47-->/Users/shahin/Documents/ecommerce-mobile-main/android/app/src/main/AndroidManifest.xml:23:23-70
+48            </intent-filter>
+49        </activity>
+50
+51        <provider
+51-->[androidx.emoji2:emoji2:1.0.0] /Users/shahin/.gradle/caches/transforms-3/679f9eb9e1807b4379fcdf1690c10faa/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+52            android:name="androidx.startup.InitializationProvider"
+52-->[androidx.emoji2:emoji2:1.0.0] /Users/shahin/.gradle/caches/transforms-3/679f9eb9e1807b4379fcdf1690c10faa/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+53            android:authorities="com.ecommerce.androidx-startup"
+53-->[androidx.emoji2:emoji2:1.0.0] /Users/shahin/.gradle/caches/transforms-3/679f9eb9e1807b4379fcdf1690c10faa/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+54            android:exported="false" >
+54-->[androidx.emoji2:emoji2:1.0.0] /Users/shahin/.gradle/caches/transforms-3/679f9eb9e1807b4379fcdf1690c10faa/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+55            <meta-data
+55-->[androidx.emoji2:emoji2:1.0.0] /Users/shahin/.gradle/caches/transforms-3/679f9eb9e1807b4379fcdf1690c10faa/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+56                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+56-->[androidx.emoji2:emoji2:1.0.0] /Users/shahin/.gradle/caches/transforms-3/679f9eb9e1807b4379fcdf1690c10faa/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+57                android:value="androidx.startup" />
+57-->[androidx.emoji2:emoji2:1.0.0] /Users/shahin/.gradle/caches/transforms-3/679f9eb9e1807b4379fcdf1690c10faa/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+58            <meta-data
+58-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/shahin/.gradle/caches/transforms-3/c6098986364c626fce2d9f3625e7ef7a/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+59                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+59-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/shahin/.gradle/caches/transforms-3/c6098986364c626fce2d9f3625e7ef7a/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+60                android:value="androidx.startup" />
+60-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/shahin/.gradle/caches/transforms-3/c6098986364c626fce2d9f3625e7ef7a/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+61        </provider>
+62    </application>
+63
+64</manifest>
